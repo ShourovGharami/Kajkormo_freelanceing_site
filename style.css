@@ -1,0 +1,430 @@
+.header{
+	background-color: rgb(0, 0, 0,0.5);
+	width: 100%;
+}
+
+.job{
+color: greenyellow;
+font-size: 80px;
+padding-bottom: 10px;
+padding-left: 40px;
+text-align: left;
+}
+.jobb{
+color: white;
+text-shadow: 3px 2px red;
+font-size: 60px;
+padding-bottom: 0px;
+padding-top: 0px;
+text-align: center;
+}
+
+body{
+	font-family: "Times New Roman", Times, serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 55% 40%;
+  grid-gap: 0px;
+  background-color: #444444;
+  padding: 0px;
+}
+
+.grid-container > div {
+  text-align: left;
+  background-color: #444444;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.grid-container3 > div {
+  text-align: center;
+  font-family: "Calibri", Light;
+}
+
+.grid-foot {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+  background-color: rgb(0,0,0,1);
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+  height: 250px;
+  padding-top: 70px;
+  height: 400px;
+  align-items: center;
+  border-radius: 80px 80px 0 0;
+}
+.grid-foot > div {
+  text-align: center;
+  background-color: rgb(0,0,0,0.8);
+  font-family: "Calibri", Light;
+  height: 100%;
+}
+
+.ftrr{
+  background-color: #2e2e2e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+  font-family: "Calibri", Light;
+  text-align: center;
+}
+
+.fwhite{
+	color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  align-items: center;
+  justify-content: end;
+  padding-right: 40px;
+}
+
+.fwhite button{
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+
+.fwhite_admin{
+	color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  justify-content: end;
+  padding-right: 40px;
+}
+
+.fwhite_admin button{
+  color: black;
+  gap: 30px;
+  align-items: center;
+  justify-content: end;
+  padding-right: 40px;
+  background-color: greenyellow;
+}
+
+
+
+.login {
+  background-color: greenyellow;
+  color: black;
+  border: none;
+}
+
+.login:hover {
+  background: none; 
+  color: greenyellow; 
+  border: 2px solid greenyellow;
+}
+
+.register {
+  background:none;
+  color: greenyellow;
+  border: 2px solid greenyellow;
+}
+
+.register:hover {
+  background-color: greenyellow; 
+  color: black; 
+}
+
+
+
+
+.ad{
+  height: 100%;
+}
+.ad .header{
+  background-color: white;
+  width: 100%;
+  padding: 40px;
+}
+.ad .header h2{
+  text-align: center;
+  color: black;
+}
+
+.ad .something{
+  background-color: white;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45%  45%;
+  gap: 40px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+.great{
+  height: 100%;
+}
+.great .header{
+  background-color: white;
+  width: 100%;
+  padding: 40px;
+}
+.great .header h2{
+  text-align: center;
+  color: black;
+}
+
+.great .something{
+  background-color: white;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45%  45%;
+  gap: 40px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+.addimage {
+  background-image: url("images/bg6.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.addimage button{
+  background: none;
+  border-bottom: 2px solid greenyellow;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.addimage button:hover{
+  border:none;
+  background-color: greenyellow;
+  color: #000;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+
+.addimage2 {
+  background-image: url("images/sign2.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.addimage2 button{
+  background: none;
+  border-bottom: 2px solid greenyellow;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.addimage2 button:hover{
+  border:none;
+  background-color: greenyellow;
+  color: #000;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+
+.bg-img {
+  background-image: url("images/form1.jpg");
+  min-height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.addtext {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.heading{
+	text-align: center; 
+	font-size: 2em;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.border{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+/* Set a style for all buttons */
+.butt {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.butt:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+
+
+
+.detailspage{
+  background-color: white;
+  width: 100%;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 4px 4px 4px 4px rgba(59, 59, 59, 0.2);
+  border-radius: 10px;
+
+  height: 500px;
+  width: 500px;
+}
+
+.detailsOf{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.wellcomefreelancher{
+  padding-left: 60px;
+}
+
+.clikTOrate{
+  border: none;
+  background-color: greenyellow;
+  color:black;
+  padding: 12px;
+  border-radius: 8px;
+}
