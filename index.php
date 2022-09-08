@@ -60,10 +60,10 @@
   </div>
   <div class="addimage">
     <div class="addtext">
-      <h1 style="font-size:50px">Welcome-স্বাগতম,<br>
-        Our Website-আমাদের ওয়েবসাইটে</h1>
+      <h1 style="font-size:50px">স্বাগতম,
+      <br> আমাদের ওয়েবসাইটে</h1>
       <br>
-      <h3>Hire expart frelancher.</h3><br>
+      <h3>Hire expart freelancer.</h3><br>
       <button class="button button2" id="Btn2">As a Freelancer </button>
       <button class="button button2" id="Btn3">As a client </button>
     </div>

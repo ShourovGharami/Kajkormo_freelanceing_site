@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>tuitoral here</title>
+  <title>কাজকর্ম</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="css/w3.css">
@@ -50,7 +50,7 @@ include('header.php');
 
 
    <div class="w3-container w3-blue" align="center">
-    <h2>You are going to be a Cliant!</h2>
+    <h2>Client! sign up now !</h2>
    </div>
    <div class="bg-img">
   <form class="w3-container" method="post" style="padding-left: 20%;padding-right: 20%;background-color: transparent;padding-top: 5%;">

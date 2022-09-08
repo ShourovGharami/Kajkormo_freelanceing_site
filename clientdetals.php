@@ -108,9 +108,11 @@
   </div>
   <!---------------------body starts from here------------------------------------->
 
- <div class="w3-cointer w3-green" style="padding: 1%">
+  <div class="detailspage">
+    <div class="w3-cointer w3-green" style="border-radius: 7px; margin-bottom:20px; padding: 1%">
   <h2>Details of <?php echo $details['name']; ?></h2>
  </div>
+ 
  <div class="w3-container">
    Name:<?php echo $details['name']; ?><br>
    Date of birth:<?php echo $details['dob']; ?><br>

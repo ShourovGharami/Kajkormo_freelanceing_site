@@ -25,7 +25,7 @@
     <div class="addtext">
       <h1 style="font-size:50px">আপনার সঠিক অ্যাকাউন্টের ধরন চয়ন করুন</h1>
       <br>
-      <h3>আপনি যদি কাজ করতে চান তাহলে ফ্রেলাঞ্চার বেছে নিন বা ফ্রেলাঞ্চার নিয়োগ করতে চাইলে ক্লায়েন্ট বেছে নিন।</h3><br>
+      <h3>আপনি যদি কাজ করতে চান তাহলে ফ্রিল্যান্সার বেছে নিন বা ফ্রিল্যান্সার নিয়োগ করতে চাইলে ক্লায়েন্ট বেছে নিন।</h3><br>
       <button class="button button2" id="Btn2">As a Freelancer </button>
       <button class="button button2" id="Btn3">As a client </button>
     </div>
