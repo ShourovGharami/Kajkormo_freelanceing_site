@@ -63,9 +63,9 @@
       <h1 style="font-size:50px">স্বাগতম,
       <br> আমাদের ওয়েবসাইটে</h1>
       <br>
-      <h3>Hire expart freelancer.</h3><br>
-      <button class="button button2" id="Btn2">As a Freelancer </button>
-      <button class="button button2" id="Btn3">As a client </button>
+      <h3>বিশেষজ্ঞ ফ্রিল্যান্সার নিয়োগ করুন এবং আপনার কাজ সম্পন্ন করুন।</h3><br>
+      <button class="button button2" id="Btn2">ফ্রিল্যান্সার </button>
+      <button class="button button2" id="Btn3">ক্লায়েন্ট </button>
     </div>
 
   </div>
@@ -149,8 +149,7 @@
   </div>
 
 
-
-  <div>
+  
     <h2></h2>
     <div class="grid-foot">
 
@@ -165,7 +164,9 @@
     </div>
   </div>
 
-  <!--------------------------------modal for login---------------------------------------->
+
+   <!-------------------------------modal for login---------------------------------------->
+
 
   <div id="modal1" class="modal">
     <form class="modal-content animate" method="post">

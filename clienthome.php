@@ -115,6 +115,9 @@ else{
   
   <div class="w3-bar w3-black w3-padding">
     <a href="clienthome.php" class="w3-bar-item w3-button w3-mobile"><b>Home</b></a>
+
+    <a href="payment.php" class="w3-bar-item w3-button w3-mobile"><b>Payment</b></a>
+
     <a href="jobapplied.php" class="w3-bar-item w3-button w3-mobile">job Application<span class="w3-badge w3-blue"><?php echo"$number";?></span></a>
     <a href="finaljob.php" class="w3-bar-item w3-button w3-mobile">Submission<span class="w3-badge w3-blue"><?php echo"$submission";?></span></a>
     
@@ -128,6 +131,7 @@ else{
      <a href="clienthome.php?status=logout" class="w3-bar-item w3-button w3-mobile">Logout</a>
 
   </div>
+
 
 
 

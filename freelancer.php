@@ -53,7 +53,7 @@ include('header.php');
 
 
    <div class="w3-container w3-teal" align="center">
-    <h2>You are going to be a freelancer</h2>
+    <h2>ফ্রিল্যান্সার তথ্য ফর্ম</h2>
    </div>
    <div class="bg-img">
   <form class="w3-container" method="post" style="padding-left: 20%;padding-right: 20%;background-color: transparent;padding-top: 5%;">
@@ -91,7 +91,7 @@ include('header.php');
                  <p>
                     
                  <p>
-                     <label>Address</label>
+                     <label> Address and Education</label>
                         <input class="w3-input w3-hover-teal" type="text" name="address" style="background-color: rgb(255, 255, 255,0.5)">
                 </p>
                 <h3>Choose your skill</h3>
@@ -127,7 +127,17 @@ include('footer.php');
 
 <!---------------------------------Another model for signup-------------------------------------->
 
-   
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/62e3e15937898912e9603e4c/1g952gi4q';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script> 
   
   
 </body>

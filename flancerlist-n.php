@@ -100,8 +100,8 @@ else{
   </div>
   <!---------------------body starts from here------------------------------------->
 
- <div class="w3-cointer w3-green" style="padding: 1%">
-  <h2>All Freelancer</h2>
+  <div class="w3-cointer w3-black" style="padding-left: 40%;padding-right: 40%;">
+ <h1 class="w3-blue" style="text-shadow:1px 1px 0 #444"> (Freelancer List) </h1>
  </div>
  <div class="w3-container" style="padding-left: 30%;padding-right: 30%;">
  <table class="w3-table">
